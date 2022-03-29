@@ -1,0 +1,169 @@
+body,html {
+    height: 100%;
+}
+
+.page-background{
+background-image: url(https://static3.cbrimages.com/wordpress/wp-content/uploads/2020/02/Featured-Image-Wano-One-Piece-Cropped.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5);
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/*Start of the header*/
+.header{
+    background: rgba(0, 0, 0, 0.9);
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-header{
+    margin: 15,0px;
+    width: 75px;
+    height: 75px;
+}
+
+.right-header{
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*End of the header*/
+
+/*Start of the first layout*/
+.second-layout{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    padding: 2cm;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between
+    
+}
+
+
+
+.left-half-layout-one{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.join-now-button{
+    height: 1cm;
+    width: 3cm;
+    border-radius: 15px;
+    border-width: 0px;
+    background-color: black;
+    color: white;
+    font-size: 125%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.the-best{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.description-1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.luffy{
+    display: flex;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* End of second layout*/
+
+/*Start of thired layout*/
+
+.third-layout{
+    margin: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.character-cards{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.card-one, .card-two, .card-three, .card-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-word{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 125%;
+}
+
+.character-card-header{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Third layout finished*/
+
+/*Quote start*/
+
+.quote-background{
+    margin: 0;
+    background: url(https://static.wikia.nocookie.net/onepiece/images/e/e7/Whitebeard_Arrives_at_Marineford.png/revision/latest?cb=20141206162940);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.quote-platform{
+    background:rgba(255, 255, 255, 0.55);
+   padding: 0;
+   margin: 0;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+  
+    
+    
+}
+
+.quote-and-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300%;
+    text-align: center;
+    display: flex;
+}
+/*Quote finished*/
+
